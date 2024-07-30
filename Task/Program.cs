@@ -5,19 +5,21 @@
 // лучше обойтись исключительно массивами.
 void Main()
 {
-    string[] array = new string[5] {"dhh", "4$", "hello", "world", "bt6"};
-    PrintArray(array);
+    string[] array = {"dhh", "4$", "hello", "world", "bt6"};
+    string[] array2 = new string[array.Length];
+    PrintArray(array, array2);
 }
 
-void PrintArray(string[] arr)
+void PrintArray(string[] arr, string[] arr2)
 {
     for (int i = 0; i < arr.Length; i++)
     {
         if(arr[i].Length <= 3)
-            System.Console.Write(arr[i] + " ");
+            arr2[i] = arr[i];
+
+            System.Console.Write(arr2[i] + " ");
 
     }
-
 }
 
 

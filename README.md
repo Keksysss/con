@@ -21,3 +21,5 @@
         5.выводим в терминал второй массив
     
 ### Реализация алгоритма по пути Task/Program.cs
+
+![блок-схема](https://github.com/user-attachments/assets/32b141cc-5183-4b04-ad89-df8f7aac1a06)
